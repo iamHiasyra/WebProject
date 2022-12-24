@@ -1,0 +1,13 @@
+button{
+    cursor: pointer;
+}
+
+#clear:active
+{
+    filter: sepia(30%);
+}
+
+#equal:active
+{
+    filter: sepia(30%);
+}

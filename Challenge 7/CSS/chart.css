@@ -1,0 +1,49 @@
+[data-days] {
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+
+    flex: 0 0 3vw;
+
+    position: relative;
+    align-self: flex-end;
+    
+    width: var(--graph-width);
+    background-color:var(--soft-red);
+    border-radius: 5px;
+}
+
+[data-days]:hover{
+    filter: brightness(1.5);
+}
+
+[data-days]:active{
+    filter: brightness(1.25);
+    background-color: var(--cyan);
+}
+
+[data-info]{
+    font-weight: bold;
+    
+    display: flex;
+    position: relative;
+    justify-content: center;
+
+
+    font-size: 12px;
+    padding: .75vh;
+
+    height: 2.5vh;
+
+
+    color: white;
+    background-color: var(--dark-brown);
+
+    bottom: 6vh;
+    border-radius: 5px;
+}
+
+.hidden{
+    display: none;
+}

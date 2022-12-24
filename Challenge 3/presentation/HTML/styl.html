@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <!--Icon-->
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+  <!--CSS -->
+  <link rel="stylesheet" href="../CSS/calculator.css">
+  <link rel="stylesheet" href="../CSS/header.css">
+  <link id="themeLink" rel="stylesheet" href="../CSS/theme1.css">
+  <link rel="stylesheet" href="../CSS/state.css">
+  <link rel="stylesheet" href="../CSS/jazyk.css">
+ 
+  <title>Kalkulačka</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+
+<body>
+  <div class="calculator-grid">
+    <header>
+      <h1>calc</h1>
+      <section>
+        <p>THEME</p>
+      <div class="toggle">
+        <input data-theme-button type="radio" name="toggle" id="theme1" value="theme1"/>
+        <input data-theme-button type="radio" name="toggle" id="theme2" value="theme2"/>
+        <input data-theme-button type="radio" name="toggle" id="theme3" value="theme3"/>
+      </div>
+      </section>
+    </header>
+
+    <div data-output class="output">
+      <div data-op class="operation"></div>
+      <div data-result class="result"></div>
+    </div>
+  
+    <main>
+      <button data-number>7</button>
+      <button data-number>8</button>
+      <button data-number>9</button>
+      <button data-delete id="clear">DEL</button>
+      
+      <button data-number>4</button>
+      <button data-number>5</button>
+      <button data-number>6</button>
+      <button data-operator>+</button>
+      
+      <button data-number>1</button>
+      <button data-number>2</button>
+      <button data-number>3</button>
+      <button data-operator>-</button>
+    
+      <button data-number>.</button>
+      <button data-number>0</button>
+      <button data-operator id="chia">/</button>
+      <button data-operator id="nhan">*</button>
+
+      <button data-clear id="clear" class = "span-two">RESET</button>
+      <button data-equal id="equal" class = "span-two"><span>=</span></button>
+    </main>
+
+    <div id="jazyk">
+      <button id="html"><a href="struktura.html">HTML</a></button>
+      <button id="css"><a href="styl.html">CSS</a></button>
+      <button id="js" ><a href="index.html">JS</a></button>
+    </div>
+  
+  
+</div>
+
+
+  <div class="attribution" hidden>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+
+
+</html>

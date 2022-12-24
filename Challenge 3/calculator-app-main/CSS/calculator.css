@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap');
+
+*, *::backdrop, *::after{
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    background-color: var(--main);
+    font-size: 24px;
+}
+
+.calculator-grid 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 322.55px;
+}
+
+/*keypad*/
+main{
+    display: grid;
+    place-content: center;
+    min-height: 40vh;
+    min-width: 322.55px;
+
+    padding: 15px;
+    border-radius: 5px;
+
+    background-color: var(--keypad);
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+
+    gap: 15px;
+
+}
+
+main > button{
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--key-three);
+    color: var(--text-one);
+    box-shadow: 0px 2px var(--key-three-shadow);
+}
+
+.span-two {
+    grid-column: span 2;
+}
+
+.output {
+    margin: 2vh;
+    padding: 1.5rem;
+    width: 322.55px;
+    min-height: 72.4px;
+
+    border-radius: 5px;
+    background-color: var(--screen);
+    color: var(--text-one);
+
+    
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+
+#equal {
+    background-color: var(--key-two);
+    color: var(--text-equal);
+    box-shadow: 0px 2px var(--key-two-shadow);
+}
+
+#clear {
+    background-color: var(--key-one);
+    color: var(--text-two);
+    box-shadow: 0px 2px var(--key-one-shadow);
+}

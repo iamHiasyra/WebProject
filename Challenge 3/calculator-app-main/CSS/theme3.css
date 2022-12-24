@@ -1,0 +1,19 @@
+:root{
+    /*background*/
+    --main: hsl(268, 75%, 9%);
+    --toggle: hsl(268, 71%, 12%);
+    --keypad: hsl(268, 71%, 12%);
+    --screen: hsl(268, 71%, 12%);
+    /*Keys*/
+    --key-one: hsl(281, 89%, 26%);
+    --key-two: hsl(176, 100%, 44%); /*also toggle key*/
+    --key-three: hsl(268, 47%, 21%);
+
+    --key-one-shadow: hsl(285, 91%, 52%);
+    --key-two-shadow: hsl(177, 92%, 70%);
+    --key-three-shadow: hsl(290, 70%, 36%);
+    /*Text*/
+    --text-one: hsl(52, 100%, 62%);
+    --text-two: hsl(0, 0%, 100%);
+    --text-equal: hsl(198, 20%, 13%);
+}

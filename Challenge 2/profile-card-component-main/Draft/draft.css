@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap);
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: lightblue;
+}
+
+.card
+{
+    position: relative;
+    left: 50%;
+
+    justify-content: center;
+    align-items: center;
+    width: 1rem;
+    height: 0.5rem;
+    background: white;
+    border-radius: 20px;
+}
+
+.profile_pic img
+{
+    position: absolute;
+    left: 750%;
+    top: 1150%;
+    border-style: solid;
+    border-radius: 100%;
+    border-color: white;
+    border-width: 5px;
+}
